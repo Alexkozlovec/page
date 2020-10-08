@@ -881,7 +881,7 @@ button{
         max-width: 100%;
     }
 }
-@media (max-width: 767.98px){
+@media (max-width: 768px){
     .articles__item_about{
         margin-top: 32rem;
     }
@@ -934,11 +934,6 @@ button{
     .feedback__textarea_wrapper .input-warning {
         top: -4.5rem;
     }
-}
-
-
-
-@media (max-width: 768px){
     .burger{
         display: block;
     }
