@@ -25,7 +25,10 @@ if(document.body.classList.contains('main-page')){
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    checkInput(userMessage, contactSubmitBtn);
+    //This is just to demonstrate it works fine.
+    if(checkInput(userMessage, contactSubmitBtn)){
+      userMessage.value = '';
+    }
   });
 }
 
