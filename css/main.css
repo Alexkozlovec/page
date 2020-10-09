@@ -772,6 +772,7 @@ button{
     height: 100%;
     border-radius: 1rem;
     padding: 1.8rem 2rem;
+    border: 1px solid var(--primary-text-color);
 }
 
 .textarea-wrapper{
