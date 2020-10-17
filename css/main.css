@@ -165,12 +165,12 @@ button{
 }
 
 .burger__active span:first-child{
-    background-color: var(--color-dark);
+    background-color: var(--color-white);
     width: 75%;
     transform: translateY(.3rem) rotate(-45deg);
 }
 .burger__active span:last-child{
-    background-color: var(--color-dark);
+    background-color: var(--color-white);
     width: 75%;
     transform: translateY(-.3rem) rotate(45deg);
 }
@@ -943,10 +943,10 @@ button{
     }
     .nav__menu{
         flex-direction: column;
-        background-color: rgba(247, 204, 137, .9);
+        background-color: rgba(0, 0, 0, .9);
         justify-content: center;
         align-items: center;
-        min-height: 40vh;
+        min-height: 100vh;
         padding: 3rem;
         position: absolute;
         right: 0;
@@ -969,9 +969,13 @@ button{
     }
     .nav__menu .nav__link a{
         display: block;
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 700;
         width: 100%;
+        color: transparent;
+        -webkit-text-stroke: 1px var(--color-orange);
+        text-transform: uppercase;
+        letter-spacing: .2rem;
     }
     .like-follow svg{
         width: 4rem;
